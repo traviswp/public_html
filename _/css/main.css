@@ -1,200 +1,204 @@
 /* Clear Default Formatting
 *******************************************************************************/
 * {
-  margin: 0;
-  padding: 0;
+    margin: 0;
+    padding: 0;
 }
 
 /* Body
 *******************************************************************************/
 body {
-	width:800px;
-	margin:0 auto;
-	padding:15px 0px 50px 0px;
-	color:black;
+    width:800px;
+    margin:0 auto;
+    padding:15px 0px 50px 0px;
+    color:black;
 
-	/* Image of Mt. Baker from http://floft.net/images/blog/20120624_MtBaker.jpg */
-	background-color:black;
-	background-image:url("../../images/baker.jpg");
-	background-attachment:fixed;
-	background-position:bottom;
-	background-size:1280px 350px;
-	background-repeat:no-repeat;
+    /* Image of Mt. Baker from http://floft.net/images/blog/20120624_MtBaker.jpg */
+    background-color:black;
+    background-image:url("../../images/baker.jpg");
+    background-attachment:fixed;
+    background-position:bottom;
+    background-size:1280px 350px;
+    background-repeat:no-repeat;
 }
 
 div.main {
-	margin:0px 10px 10px 10px;
+    margin:0px 10px 10px 10px;
     background-color: rgba(222,222,222,.7);
-	border-radius: 10px;
-	padding:0px 20px 20px 0px; 
+    border-radius: 10px;
+    padding:0px 20px 20px 0px; 
 }
 
 p {
-	font-family:"Times New Roman", Times, serif;
-	text-indent:0px;
-	width:700px;
-	margin:auto;
-	padding:20px 0px 0px 0px;
-	border-radius: 10px;
+    font-family:"Times New Roman", Times, serif;
+    text-indent:0px;
+    width:700px;
+    margin:auto;
+    padding:20px 0px 0px 0px;
+    border-radius: 10px;
+}
+
+hr {
+    margin:5px 0px 0px 0px;
+    color:#ccc;
 }
 
 /* Title tag(s)
 *******************************************************************************/
 h1 {
-	display:inline;
-	margin: 0px 0px -10px 30px;
+    display:inline;
+    margin: 0px 0px -10px 30px;
 }
 
 h1#title {
-	margin: 0px 0px 20px 0px;
+    margin: 0px 0px 20px 0px;
 }
 
 h1 a {
-	text-decoration: none;
-	color:#ccc;
-	font: 25px/1 Helvetica, Verdana, sans-serif;
+    text-decoration: none;
+    color:#ccc;
+    font: 25px/1 Helvetica, Verdana, sans-serif;
 
-	-webkit-transition: all 0.5s ease;
-	-moz-transition: all 0.5s ease;
-	-o-transition: all 0.5s ease;
-	-ms-transition: all 0.5s ease;
-	transition: all 0.5s ease;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    transition: all 0.5s ease;
 }
 
 /* Header (Nav & Links)
 *******************************************************************************/
 nav {
-	margin:0px 0px -15px 0px;
+    margin:0px 0px -15px 0px;
 }
 
 nav ul {
-	float:right;
-	overflow:visible;
-	list-style-type:none;
+    float:right;
+    overflow:visible;
+    list-style-type:none;
 }
 
 nav li {
-	height:17px;
-	float:left;
-	margin-right:0px;
-	border-right:1px solid #aaa;
-	padding:0px 10px;
+    height:17px;
+    float:left;
+    margin-right:0px;
+    border-right:1px solid #aaa;
+    padding:0px 10px;
 }
 
 nav li:last-child {
-	border-right:none;
+    border-right:none;
 }
 
 nav li a {
-	text-decoration:none;
-	color:#ccc;
-	font: 15px/1 Helvetica, Verdana, sans-serif;
-
-	-webkit-transition: all 0.5s ease;
-	-moz-transition: all 0.5s ease;
-	-o-transition: all 0.5s ease;
-	-ms-transition: all 0.5s ease;
-	transition: all 0.5s ease;
+    text-decoration:none;
+    color:#ccc;
+    font: 15px/1 Helvetica, Verdana, sans-serif;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    transition: all 0.5s ease;
 }
 
 nav li a:hover {
-	color: #80D9FF;
+    color: #80D9FF;
 }
- 
+
 nav li.active a {
-	font-weight: bold;
-	color:#80D9FF;
+    font-weight: bold;
+    color:#80D9FF;
 }
 
 a {
-	display:inline;
-	width:100px;
-	text-decoration: none;
-	color:#555;
+    display:inline;
+    width:100px;
+    text-decoration: none;
+    color:#555;
 }
 
 a:hover {
-	color: #80D9FF;
+    color: #80D9FF;
 }
 
 /* Footer
 *******************************************************************************/
 footer {
-	text-align:center;
-	color:#ccc;
-	font:italic 12px/30px "Times New Roman", Times, serif;
-	padding:10px 0px 0px 0px;
+    text-align:center;
+    color:#ccc;
+    font:italic 12px/30px "Times New Roman", Times, serif;
+    padding:10px 0px 0px 0px;
 }
 
 footer a {
-	color:#ccc;
+    color:#ccc;
 }
 
 /* Custom List (Courses/Teaching)
 *******************************************************************************/
 .quarter {
-	margin:0 auto;
+    margin:0 auto;
 }
 
 .ta-list h1 {
-	display:block;
-	margin:0px 0px 10px 10px;
-	padding:10px 0px 0px 0px;
-	font:bold 25px "Times New Roman", Times, serif;
+    display:block;
+    margin:0px 0px 10px 10px;
+    padding:10px 0px 0px 0px;
+    font:bold 25px "Times New Roman", Times, serif;
 }
 
 .quarter h1 {
-	display:block;
-	margin:0px 0px 10px 10px;
-	padding:10px 0px 0px 0px;
-	font:bold 25px "Times New Roman", Times, serif;
+    display:block;
+    margin:0px 0px 10px 10px;
+    padding:10px 0px 0px 0px;
+    font:bold 25px "Times New Roman", Times, serif;
 }
 
 .ta-list h2 {
-	display:block;
-	margin:10px 0px 0px 10px;
-	font:bold 18px "Times New Roman", Times, serif;
+    display:block;
+    margin:10px 0px 0px 10px;
+    font:bold 18px "Times New Roman", Times, serif;
 }
 
 .quarter h2 {
-	display:block;
-	margin:10px 0px 0px 10px;
-	font:bold 18px "Times New Roman", Times, serif;
+    display:block;
+    margin:10px 0px 0px 10px;
+    font:bold 18px "Times New Roman", Times, serif;
 }
 
 .quarter i {
-	display:block;
-	padding:10px 30px 0px 30px;
+    display:block;
+    padding:10px 30px 0px 30px;
 }
 
 .course {
-	width:650px;
-	margin:0 auto;
-	padding:0px 0px 10px 0px;
-	border-radius: 10px;
-	border:1px solid white;
-	border-style:solid;
+    width:650px;
+    margin:0 auto;
+    padding:0px 0px 10px 0px;
+    border-radius: 10px;
+    border:1px solid white;
+    border-style:solid;
 }
 
 .ta-details {
-	width:650px;
-	margin:0 auto;
-	padding:0px 0px 10px 0px;
+    width:650px;
+    margin:0 auto;
+    padding:0px 0px 10px 0px;
 }
 
 .ta-details i {
-	display:block;
-	padding:10px 30px 0px 30px;
+    display:block;
+    padding:10px 30px 0px 30px;
 }
 
 /* Images(s)
 *******************************************************************************/
 img {
     border: 3px solid black;
-	border-radius:10px;
-	margin:10px 10px -5px 10px; 
-	width:290px;
-	height:250px;
+    border-radius:10px;
+    margin:10px 10px -5px 10px; 
+    width:290px;
+    height:250px;
 }
 
 img:hover{
@@ -202,33 +206,26 @@ img:hover{
 }
 
 img.icons {
-	padding:3px 3px 3px 3px;
-	float:center;
-	border:none;
-	height:20px;
-	width:20px;
+    padding:3px 3px 3px 3px;
+    float:center;
+    border:none;
+    height:20px;
+    width:20px;
 }
 
 figure {
-	float:right;
-	padding:10px 10px 0px 10px;
+    float:right;
+    padding:10px 10px 0px 10px;
 }
 
 figcaption {
-	text-align:center;
-}
-
-/* Misc.
-*******************************************************************************/
-hr {
-	margin:5px 0px 0px 0px;
-	color:#ccc;
+    text-align:center;
 }
 
 /* Effects
 *******************************************************************************/
 .shadow {
-	box-shadow: 10px 10px 10px #000000;
-	-moz-box-shadow: 10px 10px 10px #000000;
-	-webkit-box-shadow: 10px 10px 10px #000000;
+    box-shadow: 10px 10px 10px #000000;
+    -moz-box-shadow: 10px 10px 10px #000000;
+    -webkit-box-shadow: 10px 10px 10px #000000;
 }
