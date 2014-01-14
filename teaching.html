@@ -1,0 +1,144 @@
+<!doctype html>
+<html lang="en">
+
+    <head>
+        <title>Travis Peters - Teaching</title>
+
+        <!-- Meta Data -->
+        <meta charset="utf-8" />
+        <meta name="description" content="personal website" />
+        <meta name="keywords" content="travis, peters, resume, projects, school, western, washington, university, work, software" />
+        <meta name="author" content="Travis Peters">
+        <meta name="Copyright" content="Copyright Travis Peters 2013. All Rights Reserved.">
+
+        <!-- Stylesheet(s) -->
+        <link href="_/css/main.css" rel="stylesheet" type="text/css">
+
+		<!-- Browser compatability fixes -->
+        <!--[if lt IE 9]><script src="dist/html5shiv.js"></script><![endif]-->
+
+		<!-- Load javascript/jquery -->
+		<script type='text/javascript' src='http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js?ver=1.3.2'></script>
+
+		<!-- jQuery -->
+		<script>
+		$(document).ready(function(){
+			$(".course").click(function(){
+				$(this).children("div").toggle(300);
+			});
+		});
+		</script>
+
+		<!-- Hide all but the first quarter/courses initially -->
+		<script>
+		$(document).ready(function(){
+			// Hide all elements
+			$("div.ta-details").hide();
+
+			// Select and show only courses/details for most recent quarter
+			$("#active").children().show();
+		});
+		</script>
+
+    </head>
+
+	<!-- Header -->
+	<header>
+		<h1 id="title"><a href="http://www.linkedin.com/pub/travis-peters/2a/351/351" target="_blank" title="goto my linkedin">{ Travis W. Peters }</a></h1>
+		<nav>
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li class="active"><a href="teaching.html">Teaching</a></li>
+				<li><a href="courses.html">Courses</a></li>
+				<li><a href="docs/resume.pdf" target="_blank">CV</a></li>
+				<li><a href="https://github.com/traviswp" target="_blank">Code/Projects</a></li>
+				<li><a href="http://travisandmarypeters.blogspot.com/" target="_blank">Blog</a></li>
+			</ul>
+		</nav>
+	</header>
+	
+	<!-- Header/Body Seperator -->
+	<br/><br/><hr/><br/>
+	
+	<!-- Body -->
+	<body>
+		<div>
+
+			<div class="main ta-list">
+					<h1>Teaching Assistantships</h1>
+
+						<!-- CS1 -->
+						<div class="course">
+							<h2>COSC 1 Introduction to Programming and Computation</h2>
+							<div class="ta-details">
+								<i>
+									<b>Dartmouth ORC:</b>
+									This course introduces computational concepts that are fundamental to computer science 
+									and are useful for the sciences, social sciences, engineering, and digital arts. 
+									Students will write their own interactive programs to analyze data, process text,
+									draw graphics, manipulate images, and simulate physical systems. Problem 
+									decomposition, program efficiency, and good programming style are emphasized 
+									throughout the course. No prior programming experience is assumed.
+								</i>
+								<i>
+									<b>Professor:</b> <a href="http://www.cs.dartmouth.edu/~thc/" target="_blank">Thomas H. Cormen</a>
+								</i>
+								<i>
+									<b>Term(s):</b> Fall 2013
+								</i>
+								<i>
+									<b>Programming Language(s):</b> Python
+								</i>
+								<i>
+									<b>Link(s):</b> <a href="http://www.cs.dartmouth.edu/~cs1/" target="_blank">Course Website</a>
+								</i>
+							</div>
+						</div>
+
+						<!-- CS10 -->
+						<div class="course" id="active">
+							<h2>COSC 10 Problem Solving via Object-Oriented Programming</h2>
+							<div class="ta-details">
+								<i>
+									<b>Dartmouth ORC:</b>
+									Motivated by problems that arise in a variety of disciplines, this course examines 
+									concepts and develops skills in solving computational problems. Topics covered 
+									include abstraction (how to hide details), modularity (how to decompose problems), 
+									data structures (how to efficiently organize data), and algorithms (procedures for 
+									solving problems). Laboratory assignments are implemented using object-oriented
+									programming techniques.
+								</i>
+								<i>
+									<b>Professor:</b> <a href="http://www.cs.dartmouth.edu/~cbk/" target="_blank">Chris Bailey-Kellogg</a>
+								</i>
+								<i>
+									<b>Term(s):</b> Winter 2014
+								</i>
+								<i>
+									<b>Programming Language(s):</b> Java
+								</i>
+								<i>
+									<b>Link(s):</b> <a href="http://www.cs.dartmouth.edu/~cbk/classes/10/14winter/index.php" target="_blank">Course Website</a> |
+													<a href="http://www.amazon.com/Data-Structures-Algorithms-Michael-Goodrich/dp/0470383267#selectedObb=rbb_ubb_trigger" target="_blank">Data Structures &amp; Algorithms in Java</a> |
+													<a href="http://docs.oracle.com/javase/7/docs/api/" target="_blank">Java Documentation</a> |
+<a href="https://canvas.dartmouth.edu/" target="_blank">Canvas</a>
+								</i>
+							</div>
+						</div>
+
+                </div> <!-- End Center -->
+
+
+
+
+
+
+		</div>
+	</body>
+	
+	<!-- Footer -->
+	<footer>
+	Copyright &copy; <a href="mailto:traviswp@cs.dartmouth.edu">Travis W. Peters</a> 2013. All Rights Reserved.
+	</footer>
+
+</html>
