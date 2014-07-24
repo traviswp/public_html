@@ -26,7 +26,7 @@ div.main {
     margin:0px 10px 10px 10px;
     background-color: rgba(222,222,222,.7);
     border-radius: 10px;
-    padding:0px 20px 20px 0px; 
+    padding:20px 20px 50px 0px; 
 }
 
 p {
@@ -47,7 +47,7 @@ hr {
 *******************************************************************************/
 h1 {
     display:inline;
-    margin: 0px 0px -10px 30px;
+    margin: 0px 1000px -10px 30px;
 }
 
 h1#title {
@@ -196,7 +196,7 @@ footer a {
 img {
     border: 3px solid black;
     border-radius:10px;
-    margin:10px 10px -5px 10px; 
+    margin:10px 10px -5px 10px;
     width:290px;
     height:250px;
 }
